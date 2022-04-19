@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "wat2wasm": "wat2wasm"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/siropaca/practice-web-assembly/issues"
   },
-  "homepage": "https://github.com/siropaca/practice-web-assembly#readme"
+  "homepage": "https://github.com/siropaca/practice-web-assembly#readme",
+  "dependencies": {
+    "wat-wasm": "^1.0.43"
+  }
 }
